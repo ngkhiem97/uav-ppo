@@ -10,6 +10,7 @@ cd ./ml-agents
 pip install -e ./ml-agents-envs
 pip install gym-unity==0.27.0
 ```
+Download neccessary files at: https://drive.google.com/drive/folders/1dFFcpCeq07QxhxCOvidyYvfHxmM28cMW?usp=sharing
 ### Training
  ```
 python3 train.py --save-model-interval 5 --env-name navigation --eval-batch-size 0 --min-batch-size 2048 --num-threads 1 --hist-length 5
